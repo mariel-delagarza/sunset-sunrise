@@ -1,0 +1,87 @@
+/* Font imports - delete ones we don't use */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+:root {
+  /* ------------------------------------------------------ */
+  /*                       Font Styles                      */
+  /* ------------------------------------------------------ */
+  /* Families loaded via Google Fonts in HTML <head>. */
+  --font-heading: 'Patrick Hand', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+
+  /* ------------------------------------------------------ */
+  /*                       Font Sizes                       */
+  /* ------------------------------------------------------ */
+  /* Used in heading tags and body text. `rem` units ensure responsiveness and a11y. */
+  --font-size-h1: 2.5rem; /* Main page title */
+  --font-size-h2: 2rem; /* Section titles */
+  --font-size-h3: 1.75rem; /* Subsection titles */
+  --font-size-body: 1rem; /* Main body text */
+  --font-size-small: 0.875rem; /* Small text, captions, footnotes */
+
+  /* ------------------------------------------------------ */
+  /*                         Colors                         */
+  /* ------------------------------------------------------ */
+  /*For backgrounds, text, buttons, accents */
+  --color-text: #444444; /* Main text color */
+  --text-background: #f6f6f6; /* Background for text sections */
+
+  --yellow-light: #fdf1cd;  
+  --yellow-medium: #f9dc90;
+  --yellow-dark: #eeaf61;
+
+  --orange-light: #fb9062;
+  --pink-light: #f89e9d;
+  --pink-bright: #ee5d6c;
+  
+  --fuschia-light: #d46f93;
+  --fuschia-dark: #ce4993;  
+  
+  --purple-light: #805690;
+  --purple-dark: #6a0d83;
+
+  /* ------------------------------------------------------ */
+  /*                         Spacing                        */
+  /* ------------------------------------------------------ */
+  /* For margin and padding. Keeps consistency across layout. */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* ------------------------------------------------------ */
+  /*                      Border Radius                     */
+  /* ------------------------------------------------------ */
+  /* For rounded corners on buttons, cards, etc. */
+  --radius-sm: 4px; /* Small radius for subtle rounding */
+  --radius-md: 8px; /* Default for most UI elements */
+  --radius-lg: 16px; /* Very rounded - for soft/friendly elements */
+
+  /* ------------------------------------------------------ */
+  /*                         Shadows                        */
+  /* ------------------------------------------------------ */
+  /* For cards, buttons, or animated elements */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+  /* ------------------------------------------------------ */
+  /*                       Transitions                      */
+  /* ------------------------------------------------------ */
+  /* Used for hover/focus effects on buttons, links, etc. */
+  --transition-fast: 150ms ease; /* Quick hover effects */
+  --transition-medium: 300ms ease; /* Default transition speed */
+  --transition-slow: 600ms ease; /* Fade-ins, large animations */
+}
